@@ -6,6 +6,7 @@
 
 - name: Install zabbix
   apt:
+    update_cache: yes
     name:
       - zabbix-server-mysql
       - zabbix-frontend-php
