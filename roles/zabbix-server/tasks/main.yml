@@ -9,5 +9,5 @@
     name:
       - zabbix-server-mysql
       - zabbix-frontend-php
-      - zabbix-apache-conf
+      - zabbix-nginx-conf
       - zabbix-agent
