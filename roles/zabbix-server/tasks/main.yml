@@ -14,6 +14,7 @@
       - zabbix-agent
       - mysql-server
       - python-pip
+      - default-libmysqlclient-dev
 
 - name: Install PyMySQL package
   pip:
