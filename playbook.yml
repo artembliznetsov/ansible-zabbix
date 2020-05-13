@@ -1,3 +1,5 @@
 ---
 
-- host: zabbix-serve
+- host: zabbix-server
+  roles:
+    - zabbix-server
