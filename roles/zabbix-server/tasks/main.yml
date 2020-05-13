@@ -13,6 +13,11 @@
       - zabbix-nginx-conf
       - zabbix-agent
       - mysql-server
+      - python-pip
+
+- name: Install PyMySQL package
+  pip:
+    name: PyMySQL
 
 - name: Create database
   mysql_db:
