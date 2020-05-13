@@ -1,5 +1,6 @@
 ---
 
 - hosts: zabbix-server
+  become: yes
   roles:
     - zabbix-server
