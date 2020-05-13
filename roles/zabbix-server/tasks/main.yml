@@ -12,3 +12,13 @@
       - zabbix-frontend-php
       - zabbix-nginx-conf
       - zabbix-agent
+      - mysql-server
+
+- name: Create database
+  mysql_db:
+    name: zabbix
+
+- name: Create DB user
+  mysql_user:
+    name: zabbix
+    host: localhost
