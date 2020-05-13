@@ -16,11 +16,11 @@
       - python-pip
       - default-libmysqlclient-dev
 
-- name:
+- name: MySQL daemon start
   service:
     name: mysql
     state: started
-    enable: yes
+    enabled: yes
 
 - name: Install PyMySQL package
   pip:
